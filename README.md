@@ -28,7 +28,7 @@ Python3, tensorflow 1.0, numpy, opencv 3.
 
 You can choose _one_ of the following three ways to get started with darkflow.
 
-1. Just build the Cython extensions in place. NOTE: If installing this way you will have to use `./flow` in the cloned darkflow directory instead of `flow` as darkflow is not installed globally.
+1. Just build the Cython extensions in place. NOTE: If installing this way you will have to use `./flow` in the cloned darkflow directory instead of `flow` as darkflow is not installed globally.(preferred way)
     ```
     python3 setup.py build_ext --inplace
     ```
@@ -88,6 +88,7 @@ activation = linear
 ```
 
 ## Flowing the graph using `flow`
+<b>NOTE: If you are windows add python before any flow command</b>
 
 ```bash
 # Have a look at its options
