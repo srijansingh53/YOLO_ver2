@@ -17,6 +17,15 @@ Python3, tensorflow 1.0, numpy, opencv 3.
 
 ### Getting started
 
+<b>Few IMPORTANT Notes</b>
+    1.This project requires a GPU of physical memory not less than 8GB for good results, if not better. The YOLO model gives very sluggish result if you run on any CPU.
+    2.Install Anaconda. I recommend it because of its pre-processed packages it provides. 
+    3.Install tensorflow-gpu. It is not easy though, you will come across some error many times. Please see this site for smooth installation of tensorflow-gpu https://www.pugetsystems.com/labs/hpc/The-Best-Way-to-Install-TensorFlow-with-GPU-Support-on-Windows-10-Without-Installing-CUDA-1187/.
+    Installing from Anaconda Cloud will include CUDA-toolkit and cuDNN libraries. (Thats why I'd said installing Anaconda will be a boost). You didn't have to install CUDA and its libraries separately.
+    4.Download darkflow (a tensorflow version of darknet- in which the YOLO was first developed) from https://github.com/thtrieu/darkflow.
+    5.Extract it. Open Anaconda with its path assigned to the extracted location. Now proceed with the following steps..... 
+    
+
 You can choose _one_ of the following three ways to get started with darkflow.
 
 1. Just build the Cython extensions in place. NOTE: If installing this way you will have to use `./flow` in the cloned darkflow directory instead of `flow` as darkflow is not installed globally.
