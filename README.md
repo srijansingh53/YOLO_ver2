@@ -21,7 +21,7 @@ Python3, tensorflow 1.0, numpy, opencv 3.
     1.This project requires a GPU of physical memory not less than 8GB for good results, if not better. The YOLO model gives very sluggish result if you run on any CPU.<br>
     2.Install Anaconda. I recommend it because of the pre-processed packages it provides. <br>
     3.Install tensorflow-gpu. It is not easy though, you will come across some error many times. Please see this site for smooth installation of tensorflow-gpu https://www.pugetsystems.com/labs/hpc/The-Best-Way-to-Install-TensorFlow-with-GPU-Support-on-Windows-10-Without-Installing-CUDA-1187/.<br>
-    Installing from Anaconda Cloud will include CUDA-toolkit and cuDNN libraries. (Thats why I'd said installing Anaconda will be a boost). You didn't have to install CUDA and its libraries separately.<br>
+    Installing tensorflow-gpu from Anaconda Cloud will include CUDA-toolkit and cuDNN libraries. (Thats why I'd said installing Anaconda will be a boost). You didn't have to install CUDA and its libraries separately.<br>
     4.Download darkflow (a tensorflow version of darknet- in which the YOLO was first developed) from https://github.com/thtrieu/darkflow.<br>
     5.Extract it. Open Anaconda Prompt with its path assigned to the extracted location. Now proceed with the following steps..... <br><br><br>
     
